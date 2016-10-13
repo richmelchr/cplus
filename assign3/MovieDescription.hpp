@@ -13,13 +13,13 @@ private:
     string runtime;
     string plot;
     string filename;
-    string genre;
-    string actors;
+    vector<string> genre;
+    vector<string> actors;
 
 public:
     MovieDescription();
     MovieDescription(string setTitle, string setRated, string setReleased, string setRuntime,
-                     string setPlot, string setFilename, string setGenre, string setActors);
+                     string setPlot, string setFilename, vector<string> setGenre, vector<string> setActors);
     ~MovieDescription();
 
     void setTitle(string setTitle);
@@ -28,8 +28,8 @@ public:
     void setRuntime(string setRuntime);
     void setPlot(string setPlot);
     void setFilename(string setFilename);
-    void setGenre(string setGenre);
-    void setActors(string setActors);
+    void setGenre(vector<string> setGenre);
+    void setActors(vector<string> setActors);
 
     string getTitle()const;
     string getRated()const;
@@ -37,8 +37,8 @@ public:
     string getRuntime()const;
     string getPlot()const;
     string getFilename()const;
-    string getGenre()const;
-    string getActors()const;
+    vector<string> getGenre();
+    vector<string> getActors();
 
     string toString();
 };

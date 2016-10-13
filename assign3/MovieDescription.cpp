@@ -2,7 +2,7 @@
 
 MovieDescription::MovieDescription() {}
 MovieDescription::MovieDescription(string setTitle, string setRated, string setReleased, string setRuntime,
-                                   string setPlot, string setFilename, string setGenre, string setActors) {
+                                   string setPlot, string setFilename, vector<string> setGenre, vector<string> setActors) {
     title = setTitle;
     rated = setRated;
     released = setReleased;
@@ -20,8 +20,8 @@ void MovieDescription::setReleased(string setReleased) {released = setReleased;}
 void MovieDescription::setRuntime(string setRuntime) {runtime = setRuntime;}
 void MovieDescription::setPlot(string setPlot) {plot = setPlot;}
 void MovieDescription::setFilename(string setFilename) {filename = setFilename;}
-void MovieDescription::setGenre(string setGenre) {genre = setGenre;}
-void MovieDescription::setActors(string setActors) {actors = setActors;}
+void MovieDescription::setGenre(vector<string> setGenre) {genre = setGenre;}
+void MovieDescription::setActors(vector<string> setActors) {actors = setActors;}
 
 string MovieDescription::getTitle()const {return title;}
 string MovieDescription::getRated()const {return rated;}
@@ -29,8 +29,8 @@ string MovieDescription::getReleased()const {return released;}
 string MovieDescription::getRuntime()const {return runtime;}
 string MovieDescription::getPlot()const {return plot;}
 string MovieDescription::getFilename()const {return filename;}
-string MovieDescription::getGenre()const {return genre;}
-string MovieDescription::getActors()const {return actors;}
+vector<string> MovieDescription::getGenre() {return genre;}
+vector<string> MovieDescription::getActors() {return actors;}
 
 string MovieDescription::toString() {
     string str;
@@ -41,8 +41,24 @@ string MovieDescription::toString() {
     str.append("\n    Runtime: "+this->getRuntime());
     str.append("\n    Plot: "+this->getPlot());
     str.append("\n    Filename: "+this->getFilename());
-    str.append("\n    Genre: "+this->getGenre());
-    str.append("\n    Actors: "+this->getActors());
+
+    str.append("\n    Genre: ");
+    vector<string> aGenre = this->getGenre();
+    for (unsigned int i = 0; i < aGenre.size(); ++i) {
+        str.append(aGenre[i]);
+        if ((i + 1) != aGenre.size()) {
+            str.append(", ");
+        }
+    }
+
+    str.append("\n    Actors: ");
+    vector<string> aActor = this->getActors();
+    for (int j = 0; j < aActor.size(); ++j) {
+        str.append(aActor[j]);
+        if ((j + 1) != aActor.size()) {
+            str.append(", ");
+        }
+    }
 
     return str;
 }

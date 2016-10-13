@@ -2,6 +2,26 @@
 
 MovieLibrary::MovieLibrary() {}
 
+MovieLibrary::MovieLibrary(string jsonFileName) {
+    ifstream jsonFile(jsonFileName.c_str());
+
+    Json::Reader reader;
+    Json::Value movies;
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
 bool MovieLibrary::add(MovieDescription aClip) {
     movies.push_back(aClip);
     return true;
