@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<project name="Ser321 Simple example of Ant to build a Java program."
+         default="targets" basedir="."
+         xmlns:dn="antlib:org.apache.ant.dotnet"
+         xmlns="antlib:org.apache.tools.ant"
+         xmlns:cpptasks="antlib:net.sf.antcontrib.cpptasks">
+   <taskdef resource="cpptasks.tasks"/>
+   <taskdef resource="net/sf/antcontrib/antcontrib.properties"/>
+
+   <property name="src.java.dir" value="src/java/"/>
+   <property name="src.cpp.dir" value="src/cpp/"/>
+
+   <property name="build" value="classes"/>
+   <property name="obj.dir" value="obj"/>
+   <property name="lib" value="./lib" />
+   <property name="dist.dir" value="bin"/>
+   <property environment="env"/>
+   <property name="user" value="${env.USERNAME}"/>
+
+   <path id="compile.classpath">
+      <pathelement location="${build}"/>
+      <pathelement path="${lib}/json.jar"/>
+   </path>
+
+   <target name="targets">
+      <echo message="Targets are clean, prepare, build, build.cpp, build.java, execute, execute.cpp, execute.java and targets"/>
+   </target>
+
+   <target name="prepare">
+     <!-- Create the time stamp -->
+     <tstamp/>
+     <!-- Create the build directory structure used by compile -->
+     <mkdir dir="${dist.dir}" />
+     <mkdir dir="${obj.dir}" />
+     <mkdir dir="${build}" />
+
+     <condition property="build.host.islinux">
+       <and>
+         <os family="unix" />
+         <not>
+           <contains string="${os.name}" substring="mac"
+                     casesensitive="false" />
+         </not>
+       </and>
+     </condition>
+     <condition property="build.host.platform" value="linux">
+       <isset property="build.host.islinux" />
+     </condition>
+
+     <condition property="build.host.ismac">
+       <and>
+         <os family="unix" />
+         <contains string="${os.name}" substring="mac" casesensitive="false"/>
+       </and>
+     </condition>
+     <condition property="build.host.platform" value="mac">
+       <isset property="build.host.ismac" />
+     </condition>
+
+     <fail unless="build.host.platform"
+           message="Building on ${os.name} is not supported" />
+     <echo message="build.host.platform is: ${build.host.platform}"/>
+     <if>
+        <isset property="build.host.ismac"/>
+        <then>
+           <echo message="detected a mac host"/>
+           <property name="includepath" value="/opt/local/include:/usr/local/include"/>
+           <property name="client.lib.path" value="/opt/local/lib"/>
+           <property name="client.lib.list" value="c++,jsoncpp,stdc++"/>
+        </then>
+     <elseif>
+        <isset property="build.host.islinux"/>
+        <then>
+           <echo message="detected a linux host"/>
+           <property name="includepath" value="/usr/include/jsoncpp"/>
+           <property name="client.lib.path" value="/usr/local/lib"/>
+           <property name="client.lib.list" value="jsoncpp,stdc++"/>
+        </then>
+     </elseif>
+     <else>
+        <echo message="failed to detect a host I know how to build on"/>
+     </else>
+     </if>
+   </target>
+
+   <target name="clean">
+     <delete dir="${obj.dir}" failonerror="false"/>
+     <delete dir="${dist.dir}" failonerror="false"/>
+      <delete dir="${build}" failonerror="false"/>
+      <delete file="moviesCPP.json"/>
+      <delete file="moviesJava.json"/>
+   </target>
+
+   <target name="build.java" depends="prepare">
+     <javac srcdir="${src.java.dir}"
+            includeantruntime="false"
+            destdir="${build}">
+        <classpath refid="compile.classpath"/>
+     </javac>
+   </target>
+
+<!--
+   <target name="build.cpp" depends="prepare">
+     <echo message="includepath is ${includepath}"/>
+     <cc outtype="executable" subsystem="console"
+         outfile="${dist.dir}/main"
+         objdir="${obj.dir}">
+         <includepath>
+            <pathelement path="${includepath}"/>
+         </includepath>
+  <compilerarg value="-std=c++11"/>
+         <libset dir="${client.lib.path}" libs="${client.lib.list}"/>
+         <fileset dir="${src.cpp.dir}" includes="MovieDescription.cpp,MovieLibrary.cpp,main.cpp"/>
+     </cc>
+   </target>
+-->
+
+   <target name="build.cpp" depends="prepare">
+     <echo message="includepath is ${includepath}"/>
+     <cc outtype="executable" subsystem="console"
+        outfile="${dist.dir}/main"
+        objdir="${obj.dir}">
+        <includepath>
+            <pathelement path="${includepath}"/>
+        </includepath>
+        <libset dir="${client.lib.path}" libs="${client.lib.list}"/>
+        <fileset dir="${src.cpp.dir}" includes="MovieDescription.cpp,main.cpp,MovieLibrary.cpp"/>
+     </cc>
+   </target>
+
+   <target name="build" depends="build.java,build.cpp">
+   </target>
+
+   <target name="execute.java" depends="build.java"
+           description="Run the Java program">
+         <java classname="main" fork="yes">
+           <classpath refid="compile.classpath"/>
+         </java>
+   </target>
+
+   <target name="execute.cpp" depends="build.cpp"
+           description="Run the C++ program">
+         <exec executable="./bin/main"/>
+   </target>
+
+   <target name="execute" depends="execute.java,execute.cpp">
+   </target>
+
+</project>

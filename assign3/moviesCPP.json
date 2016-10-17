@@ -1,0 +1,57 @@
+{
+  "GoldenEye" : 
+  {
+    "Actors" : [ "Pierce Brosnan", "Sean Bean", "Izabella Scorupco" ],
+    "Filename" : "Goldeneye.mp4",
+    "Genre" : [ "Action", "Adventure", "Thriller" ],
+    "Plot" : "James Bond teams up with the lone survivor of a destroyed Russian research center to stop the hijacking of a nuclear space weapon by a fellow agent formerly believed to be dead.",
+    "Rated" : "PG-13",
+    "Released" : "17 November 1995",
+    "Runtime" : "130",
+    "Title" : "GoldenEye"
+  },
+  "Pacific Rim" : 
+  {
+    "Actors" : [ "Charlie Hunnam", "Diego Klattenhoff", "Idris Elba" ],
+    "Filename" : "Pacific Rim 720p.mkv",
+    "Genre" : [ "Action", "Adventure", "Sci-Fi" ],
+    "Plot" : "As a war between humankind and monstrous sea creatures wages on, a former pilot and a trainee are paired up to drive a seemingly obsolete special weapon in a desperate effort to save the world from the apocalypse.",
+    "Rated" : "PG-13",
+    "Released" : "12 July 2013",
+    "Runtime" : "131",
+    "Title" : "Pacific Rim"
+  },
+  "Serenity" : 
+  {
+    "Actors" : [ "Nathan Fillion", "Gina Torres", "Alan Tudyk" ],
+    "Filename" : "Serenity.mp4",
+    "Genre" : [ "Action", "Adventure", "Sci-Fi" ],
+    "Plot" : "The crew of the ship Serenity try to evade an assassin sent to recapture one of their numbers who is telepathic.",
+    "Rated" : "PG-13",
+    "Released" : "30 September 2005",
+    "Runtime" : "119",
+    "Title" : "Serenity"
+  },
+  "Spy Game" : 
+  {
+    "Actors" : [ "Robert Redford", "Brad Pitt", "Catherine McCormack" ],
+    "Filename" : "Spy Game 720p.mp4",
+    "Genre" : [ "Action", "Crime", "Thriller" ],
+    "Plot" : "Retiring CIA agent Nathan Muir recalls his training of Tom Bishop while working against agency politics to free him from his Chinese captors.",
+    "Rated" : "R",
+    "Released" : "21 November 2001",
+    "Runtime" : "126",
+    "Title" : "Spy Game"
+  },
+  "The Dark Knight" : 
+  {
+    "Actors" : [ "Christian Bale", "Heath Ledger", "Aaron Eckhart" ],
+    "Filename" : "The Dark Knight.avi",
+    "Genre" : [ "Action", "Crime", "Drama" ],
+    "Plot" : "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, the caped crusader must come to terms with one of the greatest psychological tests of his ability to fight injustice.",
+    "Rated" : "PG-13",
+    "Released" : "18 July 2008",
+    "Runtime" : "152",
+    "Title" : "The Dark Knight"
+  }
+}

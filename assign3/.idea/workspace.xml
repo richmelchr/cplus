@@ -29,48 +29,44 @@
     <favorites_list name="assign3" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4317602">
+    <splitter split-orientation="horizontal" split-proportion="0.4495363">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/main.cpp">
+          <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="85">
-                  <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-                  <folding>
-                    <marker date="1476360001444" expanded="false" signature="299:1557" ph="..." />
-                    <marker date="1476360001444" expanded="true" signature="305:1557" ph="..." />
-                    <marker date="1476360001444" expanded="true" signature="428:1557" ph="..." />
-                  </folding>
+                  <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/cpp/main.cpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="187">
+                  <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+                  <folding />
                 </state>
               </provider>
             </entry>
           </file>
           <file leaf-file-name="MovieLibrary.cpp" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/MovieLibrary.cpp">
+            <entry file="file://$PROJECT_DIR$/src/cpp/MovieLibrary.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="221">
-                  <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+                <state relative-caret-position="816">
+                  <caret line="51" column="35" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="MovieLibrary.hpp" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/MovieLibrary.hpp">
+          <file leaf-file-name="MovieDescription.cpp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/cpp/MovieDescription.cpp">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="136">
-                  <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
-                  <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+                  <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
                   <folding />
                 </state>
               </provider>
@@ -79,98 +75,58 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="MovieDescription.cpp" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/MovieDescription.cpp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
-                  <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="MovieDescription.hpp" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/MovieDescription.hpp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="187">
-                  <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-                  <folding>
-                    <element signature="e#0#19#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="json.h" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/lib/jsoncpp/include/json/json.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-                  <folding>
-                    <element signature="e#60#81#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="reader.h" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/lib/jsoncpp/include/json/reader.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="102">
-                  <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="value.h" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/lib/jsoncpp/include/json/value.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="153">
-                  <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-                  <folding>
-                    <element signature="e#62#83#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="json_reader.cpp" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/lib/jsoncpp/src/lib_json/json_reader.cpp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-                  <folding>
-                    <element signature="e#0#49#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="json_writer.cpp" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/lib/jsoncpp/src/lib_json/json_writer.cpp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="153">
-                  <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#27#65#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="json_value.cpp" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/lib/jsoncpp/src/lib_json/json_value.cpp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
+        <splitter split-orientation="horizontal" split-proportion="0.4799599">
+          <split-first>
+            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+              <file leaf-file-name="MovieLibrary.hpp" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/src/cpp/MovieLibrary.hpp">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="136">
+                      <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="MovieDescription.hpp" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/src/cpp/MovieDescription.hpp">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="221">
+                      <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+                      <folding>
+                        <element signature="e#0#17#0" expanded="true" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-first>
+          <split-second>
+            <leaf>
+              <file leaf-file-name="movies.json" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/movies.json">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="187">
+                      <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="moviesCPP.json" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/moviesCPP.json">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="391">
+                      <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-second>
+        </splitter>
       </split-second>
     </splitter>
   </component>
@@ -179,21 +135,43 @@
       <list>
         <option value="$PROJECT_DIR$/../../SER321/groupJson/GroupJson/src/cpp/Group.cpp" />
         <option value="$PROJECT_DIR$/../../SER321/groupJson/GroupJson/src/cpp/main.cpp" />
-        <option value="$PROJECT_DIR$/MovieDescription.cpp" />
         <option value="$PROJECT_DIR$/include/json/reader.h" />
         <option value="$PROJECT_DIR$/lib/jsoncpp-src-0.5.0/jsoncpp-src-0.5.0/src/lib_json/json_reader.cpp" />
         <option value="$PROJECT_DIR$/lib/jsoncpp-src-0.5.0/jsoncpp-src-0.5.0/src/lib_json/json_value.cpp" />
-        <option value="$PROJECT_DIR$/MovieDescription.hpp" />
         <option value="$PROJECT_DIR$/lib/jsoncpp/include/json/reader.h" />
         <option value="$PROJECT_DIR$/lib/jsoncpp/include/json/json.h" />
         <option value="$PROJECT_DIR$/lib/jsoncpp/include/json/value.h" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/lib/jsoncpp/src/lib_json/json_reader.cpp" />
         <option value="$PROJECT_DIR$/lib/jsoncpp/src/lib_json/json_writer.cpp" />
         <option value="$PROJECT_DIR$/lib/jsoncpp/src/lib_json/json_value.cpp" />
-        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/MovieDescription.hpp" />
         <option value="$PROJECT_DIR$/MovieLibrary.hpp" />
+        <option value="$PROJECT_DIR$/movies.json" />
         <option value="$PROJECT_DIR$/MovieLibrary.cpp" />
+        <option value="$PROJECT_DIR$/MovieDescription.cpp" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="C:/MinGW/include/json/json.h" />
+        <option value="$PROJECT_DIR$/lib/jsoncpp-master/jsoncpp-master/src/lib_json/json_reader.cpp" />
+        <option value="$PROJECT_DIR$/lib/jsoncpp-master/jsoncpp-master/src/jsontestrunner/main.cpp" />
+        <option value="$PROJECT_DIR$/lib/jsoncpp-master/jsoncpp-master/src/test_lib_json/main.cpp" />
+        <option value="$PROJECT_DIR$/lib/jsoncpp-master/jsoncpp-master/src/lib_json/json_value.cpp" />
+        <option value="$PROJECT_DIR$/lib/jsoncpp-master/jsoncpp-master/src/test_lib_json/jsontest.h" />
+        <option value="$PROJECT_DIR$/lib/jsoncpp-master/jsoncpp-master/include/json/writer.h" />
+        <option value="$PROJECT_DIR$/lib/jsoncpp-master/jsoncpp-master/src/lib_json/json_writer.cpp" />
+        <option value="C:/MinGW/jsoncpp-master/jsoncpp-master/SConstruct" />
+        <option value="$PROJECT_DIR$/lib/json/json-forwards.h" />
+        <option value="$PROJECT_DIR$/lib/json/json.h" />
+        <option value="$PROJECT_DIR$/lib/jsoncpp.cpp" />
+        <option value="$PROJECT_DIR$/src/cpp/json/json.h" />
+        <option value="$PROJECT_DIR$/src/cpp/jsoncpp.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/src/cpp/MovieDescription.cpp" />
+        <option value="$PROJECT_DIR$/src/cpp/MovieLibrary.hpp" />
+        <option value="$PROJECT_DIR$/src/cpp/MovieDescription.hpp" />
+        <option value="C:/movies.json" />
+        <option value="$PROJECT_DIR$/../assign3_template/src/cpp/main.cpp" />
+        <option value="$PROJECT_DIR$/src/cpp/main.cpp" />
+        <option value="$PROJECT_DIR$/src/cpp/MovieLibrary.cpp" />
       </list>
     </option>
   </component>
@@ -204,7 +182,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="-1928" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1096" />
@@ -257,10 +235,6 @@
               <option name="myItemId" value="assign3" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -282,7 +256,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -292,8 +266,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vectors" />
-    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SER321/assign2/src/cpp" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RunManager" selected="Application.assign3">
@@ -462,7 +436,7 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="assign3" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="assign3" TARGET_NAME="assign3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="assign3" RUN_TARGET_NAME="assign3">
+    <configuration default="false" name="assign3" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="assign3" TARGET_NAME="assign3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="assign3" RUN_TARGET_NAME="assign3">
       <envs />
       <method />
     </configuration>
@@ -487,35 +461,44 @@
       <workItem from="1476299152118" duration="3312000" />
       <workItem from="1476305231624" duration="2198000" />
       <workItem from="1476309722731" duration="15125000" />
-      <workItem from="1476356856732" duration="3887000" />
+      <workItem from="1476356856732" duration="6078000" />
+      <workItem from="1476437104531" duration="10341000" />
+      <workItem from="1476490277402" duration="2282000" />
+      <workItem from="1476506871892" duration="2454000" />
+      <workItem from="1476514671568" duration="7375000" />
+      <workItem from="1476577378506" duration="2212000" />
+      <workItem from="1476605001501" duration="9510000" />
+      <workItem from="1476659792587" duration="1851000" />
+      <workItem from="1476682122923" duration="6243000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31923000" />
+    <option name="totallyTimeSpent" value="76382000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-1928" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.098958336" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30020285" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296146" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09533469" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.034246575" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4143302" sideWeight="0.49166667" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286004" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38640973" sideWeight="0.50625" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296146" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8515057" sideWeight="0.49375" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3995943" sideWeight="0.49791667" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296146" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296146" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -532,278 +515,218 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="assign3" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="assign3" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="src" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="assign3" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="assign3" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="lib" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="jsoncpp-src-0.5.0" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="jsoncpp-src-0.5.0" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="assign3" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="assign3" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="lib" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="jsoncpp-src-0.5.0" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="jsoncpp-src-0.5.0" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="include" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="assign3" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="assign3" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/include/src/test_lib_json/main.cpp" />
-    <entry file="file://$PROJECT_DIR$/MovieLibrary.cpp">
+    <entry file="file://$PROJECT_DIR$/main.cpp" />
+    <entry file="file://$PROJECT_DIR$/MovieDescription.hpp" />
+    <entry file="file://$PROJECT_DIR$/lib/jsoncpp-src-0.5.0/jsoncpp-src-0.5.0/include/json/json.h" />
+    <entry file="file://C:/MinGW/src/lib_json/json_reader.cpp" />
+    <entry file="file://$PROJECT_DIR$/lib/jsoncpp-src-0.5.0/jsoncpp-src-0.5.0/SConstruct" />
+    <entry file="file://$PROJECT_DIR$/lib/jsoncpp-src-0.5.0/jsoncpp-src-0.5.0/src/test_lib_json/main.cpp" />
+    <entry file="file://C:/MinGW/include/_mingw.h" />
+    <entry file="file://C:/MinGW/include/string.h" />
+    <entry file="file://C:/MinGW/include/json/reader.h" />
+    <entry file="file://C:/MinGW/include/json/json.h" />
+    <entry file="file://C:/MinGW/jsoncpp-master/jsoncpp-master/src/lib_json/json_writer.cpp" />
+    <entry file="file://C:/cygwin64/usr/include/json-c/json.h" />
+    <entry file="file://$PROJECT_DIR$/lib/jsoncpp-master/jsoncpp-master/src/test_lib_json/main.cpp" />
+    <entry file="file://$PROJECT_DIR$/lib/jsoncpp-master/jsoncpp-master/src/test_lib_json/jsontest.cpp" />
+    <entry file="file://$PROJECT_DIR$/lib/jsoncpp-master/jsoncpp-master/src/lib_json/json_value.cpp" />
+    <entry file="file://$PROJECT_DIR$/lib/jsoncpp-master/jsoncpp-master/src/jsontestrunner/main.cpp" />
+    <entry file="file://$PROJECT_DIR$/lib/jsoncpp-master/jsoncpp-master/src/lib_json/json_reader.cpp" />
+    <entry file="file://$PROJECT_DIR$/lib/jsoncpp-master/jsoncpp-master/src/test_lib_json/jsontest.h" />
+    <entry file="file://$PROJECT_DIR$/lib/jsoncpp-master/jsoncpp-master/src/lib_json/json_tool.h" />
+    <entry file="file://$PROJECT_DIR$/lib/jsoncpp-master/jsoncpp-master/include/json/allocator.h" />
+    <entry file="file://$PROJECT_DIR$/lib/jsoncpp-master/jsoncpp-master/include/json/assertions.h" />
+    <entry file="file://$PROJECT_DIR$/lib/jsoncpp-master/jsoncpp-master/include/json/autolink.h" />
+    <entry file="file://$PROJECT_DIR$/lib/jsoncpp-master/jsoncpp-master/include/json/features.h" />
+    <entry file="file://$PROJECT_DIR$/lib/jsoncpp-master/jsoncpp-master/include/json/forwards.h" />
+    <entry file="file://$PROJECT_DIR$/lib/jsoncpp-master/jsoncpp-master/include/json/json.h" />
+    <entry file="file://$PROJECT_DIR$/lib/jsoncpp-master/jsoncpp-master/include/json/value.h" />
+    <entry file="file://$PROJECT_DIR$/lib/jsoncpp-master/jsoncpp-master/include/json/version.h" />
+    <entry file="file://$PROJECT_DIR$/lib/jsoncpp-master/jsoncpp-master/include/json/writer.h" />
+    <entry file="file://$PROJECT_DIR$/lib/jsoncpp-master/jsoncpp-master/src/lib_json/json_writer.cpp" />
+    <entry file="file://$PROJECT_DIR$/lib/jsoncpp-master/jsoncpp-master/include/json/config.h" />
+    <entry file="file://$PROJECT_DIR$/lib/jsoncpp-master/jsoncpp-master/include/json/reader.h" />
+    <entry file="file://C:/MinGW/jsoncpp-master/jsoncpp-master/SConstruct" />
+    <entry file="file://$PROJECT_DIR$/lib/json/json.h" />
+    <entry file="file://$PROJECT_DIR$/lib/json/json-forwards.h" />
+    <entry file="file://$PROJECT_DIR$/lib/jsoncpp.cpp" />
+    <entry file="file://$PROJECT_DIR$/src/cpp/jsoncpp.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="200">
+          <caret line="1631" column="41" selection-start-line="1631" selection-start-column="41" selection-end-line="1631" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MovieLibrary.hpp">
+    <entry file="file://$PROJECT_DIR$/src/cpp/json/json_valueiterator.inl" />
+    <entry file="file://$PROJECT_DIR$/src/cpp/json/json.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        <state relative-caret-position="132">
+          <caret line="259" column="39" selection-start-line="259" selection-start-column="39" selection-end-line="259" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
+    <entry file="file://C:/MinGW/include/c++/6.1.0/bits/stl_construct.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <marker date="1476360001444" expanded="false" signature="299:1557" ph="..." />
-            <marker date="1476360001444" expanded="true" signature="305:1557" ph="..." />
-            <marker date="1476360001444" expanded="true" signature="428:1557" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MovieLibrary.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MovieLibrary.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MovieDescription.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MovieDescription.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/include/json/allocator.h" />
-    <entry file="file://$PROJECT_DIR$/include/include/json/assertions.h" />
-    <entry file="file://$PROJECT_DIR$/include/include/json/autolink.h" />
-    <entry file="file://$PROJECT_DIR$/include/include/json/config.h" />
-    <entry file="file://$PROJECT_DIR$/include/include/json/features.h" />
-    <entry file="file://$PROJECT_DIR$/include/include/json/forwards.h" />
-    <entry file="file://$PROJECT_DIR$/include/include/json/json.h" />
-    <entry file="file://$PROJECT_DIR$/include/include/json/reader.h" />
-    <entry file="file://$PROJECT_DIR$/include/include/json/version.h" />
-    <entry file="file://$PROJECT_DIR$/include/include/json/value.h" />
-    <entry file="file://$PROJECT_DIR$/include/src/jsontestrunner/main.cpp" />
-    <entry file="file://$PROJECT_DIR$/include/src/lib_json/json_reader.cpp" />
-    <entry file="file://$PROJECT_DIR$/include/src/lib_json/json_tool.h" />
-    <entry file="file://$PROJECT_DIR$/include/src/lib_json/json_value.cpp" />
-    <entry file="file://$PROJECT_DIR$/include/src/lib_json/json_writer.cpp" />
-    <entry file="file://$PROJECT_DIR$/include/src/test_lib_json/jsontest.cpp" />
-    <entry file="file://$PROJECT_DIR$/include/src/test_lib_json/jsontest.h" />
-    <entry file="file://$PROJECT_DIR$/include/src/test_lib_json/main.cpp" />
-    <entry file="file://$PROJECT_DIR$/include/include/json/writer.h" />
-    <entry file="file://C:/MinGW/lib/gcc/mingw32/5.3.0/include/c++/bits/stringfwd.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="73" column="32" selection-start-line="73" selection-start-column="32" selection-end-line="73" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../SER321/groupJson/GroupJson/src/cpp/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../SER321/groupJson/GroupJson/src/cpp/Group.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1564">
+        <state relative-caret-position="258">
           <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../SER321/groupJson/GroupJson/src/cpp/User.cpp">
+    <entry file="file://$PROJECT_DIR$/src/cpp/moviesCPP.json" />
+    <entry file="file://C:/movies.json" />
+    <entry file="file://$PROJECT_DIR$/src/cpp/movies.json" />
+    <entry file="file://C:/MinGW/include/c++/6.1.0/fstream">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="50" column="1" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../SER321/groupJson/GroupJson/src/cpp/User.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/MinGW/lib/gcc/mingw32/5.3.0/include/c++/iosfwd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../SER321/groupJson/GroupJson/src/cpp/Group.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/json/reader.h" />
-    <entry file="file://$PROJECT_DIR$/lib/jsoncpp-src-0.5.0/jsoncpp-src-0.5.0/src/lib_json/json_value.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/jsoncpp-src-0.5.0/jsoncpp-src-0.5.0/include/json/json.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/jsoncpp-src-0.5.0/jsoncpp-src-0.5.0/src/lib_json/json_reader.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        <state relative-caret-position="319">
+          <caret line="494" column="6" selection-start-line="494" selection-start-column="6" selection-end-line="494" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/jsoncpp/src/lib_json/json_value.cpp">
+    <entry file="file://$PROJECT_DIR$/src/cpp/MovieDescription.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        <state relative-caret-position="136">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cpp/MovieLibrary.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        <state relative-caret-position="85">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MovieDescription.cpp">
+    <entry file="file://$PROJECT_DIR$/moviesCPP.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        <state relative-caret-position="391">
+          <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MovieDescription.hpp">
+    <entry file="file://$PROJECT_DIR$/movies.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/jsoncpp/include/json/json.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-          <folding>
-            <element signature="e#60#81#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/jsoncpp/include/json/reader.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/jsoncpp/include/json/value.h">
+    <entry file="file://$PROJECT_DIR$/src/cpp/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding>
-            <element signature="e#62#83#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/jsoncpp/src/lib_json/json_reader.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/jsoncpp/src/lib_json/json_writer.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#27#65#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding>
-            <marker date="1476360001444" expanded="false" signature="299:1557" ph="..." />
-            <marker date="1476360001444" expanded="true" signature="305:1557" ph="..." />
-            <marker date="1476360001444" expanded="true" signature="428:1557" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MovieLibrary.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+        <state relative-caret-position="187">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MovieLibrary.cpp">
+    <entry file="file://$PROJECT_DIR$/src/cpp/MovieLibrary.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="51" column="35" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cpp/MovieDescription.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
